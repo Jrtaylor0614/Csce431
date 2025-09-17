@@ -24,10 +24,11 @@ gem "turbo-rails"
 
 # Hotwire's modest JavaScript framework [https://stimulus.hotwired.dev]
 gem "stimulus-rails"
-
+gem 'cssbundling-rails'
+gem 'listen', '~> 3.3'
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
-gem "jbuilder"
-
+gem 'jbuilder', '~> 2.7'
+gem 'jsbundling-rails'
 #Gem to manage DB
 gem 'yaml_db' 
 
